@@ -1,0 +1,9 @@
+#sample-para{
+    font-size: 30px;
+    color:red; /* text-color*/
+    background-color: antiquewhite;
+    font-weight: bolder; 
+    line-height: 50px; /* gap between 2 lines*/
+    text-align: justify; /*left align, right align and justify*/
+    text-decoration: underline; /* Used to  create nav bar inorder. To remove underline in anchor tags*/
+}
