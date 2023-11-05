@@ -1,0 +1,25 @@
+*{
+    padding:0px;
+}
+ul li{
+    display: inline-block;
+    margin: 10px;
+    
+}
+
+ul{
+    text-align: center;
+}
+
+ul li a{
+    text-decoration: none;
+    color:black;
+}
+
+ul li a:hover{
+    border-bottom: 10px solid green;
+}
+
+nav{
+    background-color: antiquewhite;
+}
