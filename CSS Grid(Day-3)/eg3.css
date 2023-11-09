@@ -82,10 +82,9 @@
 
 .item{
     color:white;
-    /*border:2px solid chartreuse;*/
+    border:2px solid chartreuse;
     margin:10px;
 }
 .item{
-    overflow: hidden;
     justify-content: center;
 }
