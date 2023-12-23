@@ -1,0 +1,39 @@
+.container{
+    height:400px;
+    border:2px solid blue;
+    display:flex; /* By default main-axis aligned horizontally */
+    /* Elements main-axis ke tarah stack honge */
+
+    /* 'flex-direction' is used to change direction of 'main-axis' */
+    
+    /* flex-direction: row; ->main-axis=horizontal
+    flex-direction: column; -> main-axis=vertical
+    flex-direction:row-reverse; -> main-axis=horizontal */
+    flex-direction: column-reverse; /* main-axis=vertical*/
+
+    /* flex-wrap is used to intact the width of elements */
+    flex-wrap: wrap;
+
+    /* justify-content is applied along main-axis */
+    justify-content: flex-start;
+    justify-content: flex-end; /* shift towards other end */
+    justify-content: center;
+    justify-content: space-between; 
+    justify-content: space-around; /*between space is equal, but not on left/top & right/bottom*/
+    justify-content:space-evenly; /*all spaces are equal*/
+
+    /* align-items is applied along cross-axis */
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    align-items: stretch; /*default value*/
+
+    row-gap: 50px;
+
+    
+
+.box{
+    border: 1px solid brown;
+    background-color: aqua;
+    width:50%
+}

@@ -1,0 +1,11 @@
+div{
+    background-color: aqua;
+    height:200px;
+    width:200px;
+}
+
+div:hover{
+    transform:rotate(120deg); /* rotates 120 degrees*/
+    transform:scale(1.5,0.4);
+    transform:translate(100px,100px);
+}

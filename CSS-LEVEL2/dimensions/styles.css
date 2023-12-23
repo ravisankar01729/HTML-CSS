@@ -1,0 +1,10 @@
+.box{
+    max-height: 100px;
+    border:1px solid black;
+}
+
+.mydiv{
+    border:1px solid black;
+    margin-top:10px;
+    min-height: 100px;
+}

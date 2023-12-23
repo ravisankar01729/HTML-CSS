@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        .div1{
+            height:400px;
+            width:400px;
+            background-color: white;
+            border: 2px solid black;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .div1 .para{
+            font-size:x-large;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+        .div1 .price{
+            width:80%;
+            height:10%;
+            background-color: whitesmoke;
+            padding-left:10px;
+            padding-bottom: 20px;
+        }
+        .price p{
+            display: inline-block;
+        }
+        .price #discount{
+            color:blue;
+        }
+        .gap{
+            margin-right: 50px;
+        }
+        .price button{
+            background-color:green;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <div class ="img"><img src="./Web_Dev_670f900667.jpg" alt="web dev course" width="100%" height="70%"></div>
+        <div class="para">
+            <p>Web Development Master <br>Course @dot Batch
+            </p>
+        </div>
+        <div class="price">
+                <p class="gap" id="discount">$4500</p>
+                <p class="gap">$6999</p>
+                <button class="gap">42% off</button>
+        </div>
+    </div>
+</body>
+</html>

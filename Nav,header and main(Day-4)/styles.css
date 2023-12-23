@@ -60,7 +60,7 @@ header{
 }
 
 header div{
-    /*border: 2px solid chartreuse;*/
+    border: 2px solid chartreuse;
     margin: 10px;
     color:white
 }
@@ -93,14 +93,10 @@ header div{
     grid-column: 3/6;
 }
 .skills{
-    /*border: 2px solid greenyellow;*/
+    border: 2px solid greenyellow;
     background-color:rgb(128, 128, 128);
     margin:10px;
     color:white
-}
-
-.skills img{
-    padding-left: 100px;
 }
 .skills h1{
     padding-left: 140px;
