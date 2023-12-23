@@ -35,5 +35,21 @@
 .box{
     border: 1px solid brown;
     background-color: aqua;
-    width:50%
+    width:50%;
+}
+
+ /* smae order rakne se uss block se pahale ha jayange */
+ /* flex-shink decides the rate of decrease of speed of element */
+#box-1{
+    order:1;
+    flex-grow: 1; /* By default value=0 */
+    align-self: flex-start;
+}
+#box-3{
+    order:8;
+    align-self: flex-end;
+}
+#box-2{
+    order:4;
+    align-self: stretch;
 }
